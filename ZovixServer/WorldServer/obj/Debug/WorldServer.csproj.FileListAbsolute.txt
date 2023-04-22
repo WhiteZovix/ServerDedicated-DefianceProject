@@ -1,0 +1,9 @@
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\bin\Debug\WorldServer.exe.config
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\bin\Debug\WorldServer.exe
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\bin\Debug\WorldServer.pdb
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.csproj.AssemblyReference.cache
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.csproj.CopyComplete
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.exe
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\WorldServer\obj\Debug\WorldServer.pdb

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<LogInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Info>true</Info>
+  <Successs>true</Successs>
+  <Notice>true</Notice>
+  <Error>true</Error>
+  <Debug>false</Debug>
+  <Tcp>false</Tcp>
+  <Dump>false</Dump>
+</LogInfo>

@@ -1,0 +1,151 @@
+[18:41:53] N InitLog : Logger initialized
+[18:41:53] I Connect : Registering connector : tcp://127.0.0.1:6899/RpcConnectorpassword
+[18:41:53] S RpcClient : Connected to : 127.0.0.1:6899
+[18:41:53] I RpcClient : Loading
+[18:41:53] S RegisterDefinitions : Registering Handler : 000003E9
+[18:41:53] S RegisterDefinitions : Registering Handler : 000003E8
+[18:41:53] S RegisterDefinitions : Registering Handler : 000010CE
+[18:41:53] S RegisterDefinitions : Registering Handler : 000010CC
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000E55
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000007
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000F04
+[18:41:53] S RegisterDefinitions : Registering Handler : 000011CE
+[18:41:53] S RegisterDefinitions : Registering Handler : 00001E99
+[18:41:53] S RegisterDefinitions : Registering Handler : 000003EC
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000DAF
+[18:41:53] S RegisterDefinitions : Registering Handler : 000010E9
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000271
+[18:41:53] S RegisterDefinitions : Registering Handler : 000003EA
+[18:41:53] S RegisterDefinitions : Registering Handler : 01153F70
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000019
+[18:41:53] S RegisterDefinitions : Registering Handler : 01153F6A
+[18:41:53] S RegisterDefinitions : Registering Handler : 00001E17
+[18:41:53] S RegisterDefinitions : Registering Handler : 000000DE
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000E10
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000DBF
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000002
+[18:41:53] S RegisterDefinitions : Registering Handler : 0000025B
+[18:41:53] S RegisterDefinitions : Registering Handler : 000003EF
+[18:41:53] S RegisterDefinitions : Registering Handler : 00000080
+[18:41:53] I TCPManager : Starting...
+[18:41:53] I TCPManager : Loading the Packet Handler
+[18:41:54] I TCPManager : Loading Crypt Handler
+[18:41:54] S TCPManager : Server listening to : 0.0.0.0:50000
+[18:41:54] I ConsoleMgr : Commands list : 
+[18:41:54] I ConsoleMgr : .help : <command>
+[18:42:27] I TCPManager : New Connection : 127.0.0.1:49152
+[18:42:27] S OnReceive : Received Bytes =263
+[18:42:27] I GetFieldType : Type = Packet
+[18:42:27] S ReadField : Index = 0,Type=10
+[18:42:27] E PacketProcessor : Unhandled Opcode : 00001000
+[18:42:27] I GetFieldType : Type = False
+[18:42:27] S ReadField : Index = 0,Type=0
+[18:42:27] S Packet : ------> ++T : False
+[18:42:27] I GetFieldType : Type = True
+[18:42:27] S ReadField : Index = 0,Type=1
+[18:42:27] S Packet : ------> ++T : True
+[18:42:27] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:42:27] I GetFieldType : Type = False
+[18:42:27] S ReadField : Index = 0,Type=0
+[18:42:27] S Packet : ------> ++T : False
+[18:42:27] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:42:27] I GetFieldType : Type = False
+[18:42:27] S ReadField : Index = 0,Type=0
+[18:42:27] S Packet : ------> ++T : False
+[18:42:27] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:42:27] I GetFieldType : Type = ByteArray
+[18:42:27] S ReadField : Index = 11,Type=6
+[18:42:27] S Packet : ------> ++T : ByteArray
+[18:42:27] I GetFieldType : Type = Raw8Bytes
+[18:42:27] S ReadField : Index = 9,Type=5
+[18:42:27] S Packet : ------> ++T : Raw8Bytes
+[18:42:27] I GetFieldType : Type = True
+[18:42:27] S ReadField : Index = 4,Type=1
+[18:42:27] S Packet : ------> ++T : True
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 4
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 9
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 11
+[18:42:27] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:42:27] I GetFieldType : Type = Packet
+[18:42:27] S ReadField : Index = 0,Type=10
+[18:42:27] E PacketProcessor : Unhandled Opcode : 0000003E
+[18:42:27] I GetFieldType : Type = Unsigned7BitEncoded
+[18:42:27] S ReadField : Index = 10,Type=2
+[18:42:27] S Packet : ------> ++T : Unsigned7BitEncoded
+[18:42:27] I GetFieldType : Type = Raw8Bytes
+[18:42:27] S ReadField : Index = 15,Type=5
+[18:42:27] S Packet : ------> ++T : Raw8Bytes
+[18:42:27] I GetFieldType : Type = Raw4Bytes
+[18:42:27] S ReadField : Index = 2,Type=4
+[18:42:27] S Packet : ------> ++T : Raw4Bytes
+[18:42:27] I GetFieldType : Type = Raw4Bytes
+[18:42:27] S ReadField : Index = 818,Type=4
+[18:42:27] S Packet : ------> ++T : Raw4Bytes
+[18:42:27] I GetFieldType : Type = Raw8Bytes
+[18:42:27] S ReadField : Index = 127758,Type=5
+[18:42:27] S Packet : ------> ++T : Raw8Bytes
+[18:42:27] I GetFieldType : Type = Raw4Bytes
+[18:42:27] S ReadField : Index = 8319581,Type=4
+[18:42:27] S Packet : ------> ++T : Raw4Bytes
+[18:42:27] I GetFieldType : Type = False
+[18:42:27] S ReadField : Index = 1,Type=0
+[18:42:27] S Packet : ------> ++T : False
+[18:42:27] I GetFieldType : Type = True
+[18:42:27] S ReadField : Index = 7,Type=1
+[18:42:27] S Packet : ------> ++T : True
+[18:42:27] I GetFieldType : Type = ByteArray
+[18:42:27] S ReadField : Index = -952104347,Type=6
+[18:42:27] S Packet : ------> ++T : ByteArray
+[18:42:27] I GetFieldType : Type = True
+[18:42:27] S ReadField : Index = 8,Type=1
+[18:42:27] S Packet : ------> ++T : True
+[18:42:27] I GetFieldType : Type = False
+[18:42:27] S ReadField : Index = 848,Type=0
+[18:42:27] S Packet : ------> ++T : False
+[18:42:27] I GetFieldType : Type = Entry
+[18:42:27] E PacketProcessor : Unhandled Field Type : Entry
+[18:42:27] E PacketProcessor : Unhandled Field : Type = 9
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : -952104347
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 2
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 15
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 818
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 848
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 127758
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8319581
+[18:42:27] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:42:27] I GetFieldType : Type = Packet
+[18:42:27] S ReadField : Index = 0,Type=10
+[18:42:27] E PacketProcessor : Unhandled Opcode : 00000021
+[18:42:27] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:42:27] I GetFieldType : Type = Packet
+[18:42:27] S ReadField : Index = 0,Type=10
+[18:42:27] E PacketProcessor : Unhandled Opcode : 00000045
+[18:42:27] I GetFieldType : Type = ByteArray
+[18:42:27] S ReadField : Index = 7880,Type=6
+[18:42:27] S Packet : ------> ++T : ByteArray
+[18:42:27] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7880
+[18:42:27] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:42:27] I GetFieldType : Type = Packet
+[18:42:27] S ReadField : Index = 0,Type=10
+[18:42:27] I GetFieldType : Type = Unsigned7BitEncoded
+[18:42:27] S ReadField : Index = 0,Type=2
+[18:42:27] S Packet : ------> ++T : Unsigned7BitEncoded
+[18:42:27] I GetFieldType : Type = ByteArray
+[18:42:27] S ReadField : Index = 1994026146,Type=6
+[18:42:27] S Packet : ------> ++T : ByteArray
+[18:42:27] I GetFieldType : Type = Unsigned7BitEncoded
+[18:42:27] S ReadField : Index = 83676,Type=2
+[18:42:27] S Packet : ------> ++T : Unsigned7BitEncoded
+[18:42:27] I GetFieldType : Type = ByteArray
+[18:42:27] S ReadField : Index = 13,Type=6
+[18:42:27] S Packet : ------> ++T : ByteArray
+[18:42:27] S ApplyToFieldInfo : Timestamp, Index=0
+[18:42:27] E ApplyToFieldInfo : PingPong, Invalid Index : 13
+[18:42:27] E ApplyToFieldInfo : PingPong, Invalid Index : 83676
+[18:42:27] E ApplyToFieldInfo : PingPong, Invalid Index : 1994026146
+[18:42:27] S Ping : Time=34,248604609

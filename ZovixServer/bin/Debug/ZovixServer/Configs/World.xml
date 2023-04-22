@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<WorldConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IConfiguredTheFile>true</IConfiguredTheFile>
+  <ServerMOTD>Welcome to Project Defiance Game Server</ServerMOTD>
+  <WorldServerIP>127.0.0.1</WorldServerIP>
+  <WorldServerPort>45000</WorldServerPort>
+  <RpcIp>127.0.0.1</RpcIp>
+  <RpcPort>6899</RpcPort>
+  <RpcKey>password</RpcKey>
+  <LogInfo>
+    <LogsDir>Logs</LogsDir>
+    <LogFile>World.log</LogFile>
+  </LogInfo>
+  <RealmId>1</RealmId>
+  <ShutDownTimer>2000</ShutDownTimer>
+  <WorldDB>
+    <Server>127.0.0.1</Server>
+    <Port>3306</Port>
+    <Database>defiance</Database>
+    <Username>root</Username>
+    <Password />
+    <Custom>Treat Tiny As Boolean=False</Custom>
+  </WorldDB>
+</WorldConfig>

@@ -1,0 +1,19 @@
+[17:31:58] N InitLog : Logger initialized
+[17:31:58] I Connect : Registering connector : tcp://127.0.0.1:6899/RpcConnectorpassword
+[17:32:02] E RcpClient : Can not connect to : 127.0.0.1:6899
+[17:32:02] E RpcClient : Erreur = System.Net.Sockets.SocketException (0x80004005): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:6899
+
+Server stack trace: 
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   à System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   à System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   à System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   à System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   à Shared.RpcConnector.Connect(String Name)
+   à Shared.RpcClient.Connect() dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Remoting\RpcClient.cs:ligne 103

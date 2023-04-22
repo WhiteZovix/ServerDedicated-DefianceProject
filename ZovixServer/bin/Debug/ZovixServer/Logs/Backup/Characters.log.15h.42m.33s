@@ -1,0 +1,243 @@
+[15:41:28] N InitLog : Logger initialized
+[15:41:28] I RpcServer : Starting... 6899
+[15:41:28] I Load : Registering RpcConnector : RpcConnectorpassword
+[15:41:28] I RpcConnector : Server = Shared.RpcServer
+[15:41:28] I RpcServer : Registering Rpc : AccountMgr
+[15:41:28] I RpcServer : Registering Rpc : CacheMgr
+[15:41:28] I RpcServer : Registering Rpc : CharacterMgr
+[15:41:28] S RpcServer : Server listening on : 6899
+[15:41:29] I DBManager : Registering table: Account
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Accounts`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.accounts' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Account_banned
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Accounts_banned`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.accounts_banned' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Character_StartItems
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Characters_StartItems`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.characters_startitems' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Cache_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Cache_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.cache_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: ItemCache_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `ItemCache_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.itemcache_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Map_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Map_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.map_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Model_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Model_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.model_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: RaceSexMask_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `RaceSexMask_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.racesexmask_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Text_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Text_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.text_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Character
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Characters`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.characters' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Character_Position
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Characters_Positions`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.characters_positions' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Character_Item
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Characters_Items`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.characters_items' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Creation_Name
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Creation_Names`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.creation_names' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Creation_Position
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Creation_Positions`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.creation_positions' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Realm
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Realms`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.realms' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Zone_Info
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Zone_Info`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.zone_info' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Items_Template
+[15:41:29] E DataConnecion : ExecuteSelect: "DESCRIBE `Items_Template`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): La table 'defiance.items_template' n'existe pas
+   à MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   à MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   à MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à Shared.Database.DataConnection.ExecuteSelect(String sqlcommand, QueryCallback callback, IsolationLevel isolation) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\Database\Connection\DataConnection.cs:ligne 238
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Character_StartItems
+[15:41:29] I DataConnection : New DB Connection
+[15:41:29] I DBManager : Registering table: Cache_Info
+[15:41:29] I DBManager : Registering table: ItemCache_Info
+[15:41:29] I DBManager : Registering table: Map_Info
+[15:41:29] I DBManager : Registering table: Model_Info
+[15:41:29] I DBManager : Registering table: RaceSexMask_Info
+[15:41:29] I DBManager : Registering table: Text_Info
+[15:41:29] I DBManager : Registering table: Character
+[15:41:29] I DBManager : Registering table: Character_Position
+[15:41:29] I DBManager : Registering table: Character_Item
+[15:41:29] I DBManager : Registering table: Creation_Name
+[15:41:29] I DBManager : Registering table: Creation_Position
+[15:41:29] I DBManager : Registering table: Realm
+[15:41:29] I DBManager : Registering table: Zone_Info
+[15:41:29] I DBManager : Registering table: Items_Template
+[15:41:29] S LoadRealms : Loaded 0 Realm(s)
+[15:41:29] S LoadCreation_Names : Loaded 0 Random Name(s)
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001B7
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001D7
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001DD
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001E8
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001D6
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001D5
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001C2
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001B3
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001EF
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001F0
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001B2
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001B1
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001C0
+[15:41:29] S RegisterDefinitions : Registering Handler : 0000019D
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001C5
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001B4
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001E5
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001C1
+[15:41:29] S RegisterDefinitions : Registering Handler : 0000019E
+[15:41:29] S RegisterDefinitions : Registering Handler : 000001AF
+[15:41:29] S RegisterDefinitions : Registering Handler : 000003EA
+[15:41:29] S RegisterDefinitions : Registering Handler : 0000040A
+[15:41:29] S RegisterDefinitions : Registering Handler : 00000019
+[15:41:29] S RegisterDefinitions : Registering Handler : 0000040B
+[15:41:29] S RegisterDefinitions : Registering Handler : 00001E17
+[15:41:29] S RegisterDefinitions : Registering Handler : 000000DE
+[15:41:29] S RegisterDefinitions : Registering Handler : 00000E10
+[15:41:29] S RegisterDefinitions : Registering Handler : 00000DBF
+[15:41:29] S RegisterDefinitions : Registering Handler : 00000002
+[15:41:29] S RegisterDefinitions : Registering Handler : 0000025B
+[15:41:29] S RegisterDefinitions : Registering Handler : 000003EF
+[15:41:29] S RegisterDefinitions : Registering Handler : 00000080
+[15:41:29] I TCPManager : Starting...
+[15:41:29] I TCPManager : Loading the Packet Handler
+[15:41:30] I TCPManager : Loading Crypt Handler
+[15:41:30] S TCPManager : Server listening to : 0.0.0.0:50000
+[15:41:30] I ConsoleMgr : Commands list : 
+[15:41:30] I ConsoleMgr : .help : <command>
+[15:41:30] I ConsoleMgr : .create : <Username,Password>
+[15:41:30] I ConsoleMgr : .realm : <id(1-41) type(1=Pvp,2=RP,3=PVP-RP) lang(1=En-3=Ger-5=Fr)>
+[15:41:30] I ConsoleMgr : .shutdown : <time in second>
+[15:42:13] I RpcServer : New client: WorldServer, ID=1
+[15:42:13] I ClientInfo : Loading of : Shared.AccountMgr
+[15:42:13] I ClientInfo : Loading of : Shared.CacheMgr
+[15:42:13] I ClientInfo : Loading of : Shared.CharacterMgr

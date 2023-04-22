@@ -1,0 +1,163 @@
+[18:41:11] N InitLog : Logger initialized
+[18:41:11] I RpcServer : Starting... 45000
+[18:41:11] I Load : Registering RpcConnector : RpcConnectorpassword
+[18:41:11] I RpcConnector : Server = Shared.RpcServer
+[18:41:11] I RpcServer : Registering Rpc : AccountMgr
+[18:41:11] I RpcServer : Registering Rpc : CacheMgr
+[18:41:11] I RpcServer : Registering Rpc : CharacterMgr
+[18:41:11] S RpcServer : Server listening on : 45000
+[18:41:11] I DBManager : Registering table: Account
+[18:41:11] I DataConnection : New DB Connection
+[18:41:11] I DBManager : Registering table: Account_banned
+[18:41:11] I DBManager : Registering table: Character_StartItems
+[18:41:11] I DataConnection : New DB Connection
+[18:41:11] I DBManager : Registering table: Cache_Info
+[18:41:11] I DBManager : Registering table: ItemCache_Info
+[18:41:11] I DBManager : Registering table: Map_Info
+[18:41:11] I DBManager : Registering table: Model_Info
+[18:41:11] I DBManager : Registering table: RaceSexMask_Info
+[18:41:11] I DBManager : Registering table: Text_Info
+[18:41:11] I DBManager : Registering table: Character
+[18:41:11] I DBManager : Registering table: Character_Position
+[18:41:11] I DBManager : Registering table: Character_Item
+[18:41:11] I DBManager : Registering table: Creation_Name
+[18:41:11] I DBManager : Registering table: Creation_Position
+[18:41:11] I DBManager : Registering table: Realm
+[18:41:11] I DBManager : Registering table: Zone_Info
+[18:41:11] I DBManager : Registering table: Items_Template
+[18:41:11] I DBManager : Registering table: Character_StartItems
+[18:41:11] I DataConnection : New DB Connection
+[18:41:11] I DBManager : Registering table: Cache_Info
+[18:41:11] I DBManager : Registering table: ItemCache_Info
+[18:41:11] I DBManager : Registering table: Map_Info
+[18:41:11] I DBManager : Registering table: Model_Info
+[18:41:11] I DBManager : Registering table: RaceSexMask_Info
+[18:41:11] I DBManager : Registering table: Text_Info
+[18:41:11] I DBManager : Registering table: Character
+[18:41:11] I DBManager : Registering table: Character_Position
+[18:41:11] I DBManager : Registering table: Character_Item
+[18:41:11] I DBManager : Registering table: Creation_Name
+[18:41:11] I DBManager : Registering table: Creation_Position
+[18:41:11] I DBManager : Registering table: Realm
+[18:41:11] I DBManager : Registering table: Zone_Info
+[18:41:11] I DBManager : Registering table: Items_Template
+[18:41:11] S LoadRealms : Loaded 1 Realm(s)
+[18:41:11] S LoadCreation_Names : Loaded 0 Random Name(s)
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001B7
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001D7
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001DD
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001E8
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001D6
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001D5
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001C2
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001B3
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001EF
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001F0
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001B2
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001B1
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001C0
+[18:41:11] S RegisterDefinitions : Registering Handler : 0000019D
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001C5
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001B4
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001E5
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001C1
+[18:41:11] S RegisterDefinitions : Registering Handler : 0000019E
+[18:41:11] S RegisterDefinitions : Registering Handler : 000001AF
+[18:41:11] S RegisterDefinitions : Registering Handler : 000003EA
+[18:41:11] S RegisterDefinitions : Registering Handler : 01153F70
+[18:41:11] S RegisterDefinitions : Registering Handler : 00000019
+[18:41:11] S RegisterDefinitions : Registering Handler : 01153F6A
+[18:41:11] S RegisterDefinitions : Registering Handler : 00001E17
+[18:41:11] S RegisterDefinitions : Registering Handler : 000000DE
+[18:41:11] S RegisterDefinitions : Registering Handler : 00000E10
+[18:41:11] S RegisterDefinitions : Registering Handler : 00000DBF
+[18:41:11] S RegisterDefinitions : Registering Handler : 00000002
+[18:41:11] S RegisterDefinitions : Registering Handler : 0000025B
+[18:41:11] S RegisterDefinitions : Registering Handler : 000003EF
+[18:41:11] S RegisterDefinitions : Registering Handler : 00000080
+[18:41:11] I TCPManager : Starting...
+[18:41:11] I TCPManager : Loading the Packet Handler
+[18:41:12] I TCPManager : Loading Crypt Handler
+[18:41:12] S TCPManager : Server listening to : 0.0.0.0:6899
+[18:41:12] I ConsoleMgr : Commands list : 
+[18:41:12] I ConsoleMgr : .help : <command>
+[18:41:12] I ConsoleMgr : .create : <Username,Password>
+[18:41:12] I ConsoleMgr : .realm : <id(1-41) type(1=Pvp,2=RP,3=PVP-RP) lang(1=En-3=Ger-5=Fr)>
+[18:41:12] I ConsoleMgr : .shutdown : <time in second>
+[18:41:16] I TCPManager : New Connection : 127.0.0.1:65497
+[18:41:16] S OnReceive : Received Bytes =230
+[18:41:16] I GetFieldType : Type = Packet
+[18:41:16] S ReadField : Index = 0,Type=10
+[18:41:16] E PacketProcessor : Unhandled Opcode : 0000004E
+[18:41:16] I GetFieldType : Type = Raw8Bytes
+[18:41:16] S ReadField : Index = 8,Type=5
+[18:41:16] S Packet : ------> ++T : Raw8Bytes
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = Raw4Bytes
+[18:41:16] S ReadField : Index = 0,Type=4
+[18:41:16] S Packet : ------> ++T : Raw4Bytes
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 0,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = Raw4Bytes
+[18:41:16] S ReadField : Index = 14,Type=4
+[18:41:16] S Packet : ------> ++T : Raw4Bytes
+[18:41:16] E Field : Not Defined : 13
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[18:41:16] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:41:16] I GetFieldType : Type = Packet
+[18:41:16] S ReadField : Index = 0,Type=10
+[18:41:16] E PacketProcessor : Unhandled Opcode : 0000006E
+[18:41:16] I GetFieldType : Type = ByteArray
+[18:41:16] S ReadField : Index = 13,Type=6
+[18:41:16] S Packet : ------> ++T : ByteArray
+[18:41:16] I GetFieldType : Type = False
+[18:41:16] S ReadField : Index = 13,Type=0
+[18:41:16] S Packet : ------> ++T : False
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = True
+[18:41:16] S ReadField : Index = 12,Type=1
+[18:41:16] S Packet : ------> ++T : True
+[18:41:16] I GetFieldType : Type = Unsigned7BitEncoded
+[18:41:16] S ReadField : Index = 14,Type=2
+[18:41:16] S Packet : ------> ++T : Unsigned7BitEncoded
+[18:41:16] I GetFieldType : Type = Raw4Bytes
+[18:41:16] S ReadField : Index = 12,Type=4
+[18:41:16] S Packet : ------> ++T : Raw4Bytes
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = Unsigned7BitEncoded
+[18:41:16] S ReadField : Index = 14,Type=2
+[18:41:16] S Packet : ------> ++T : Unsigned7BitEncoded
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] I GetFieldType : Type = True
+[18:41:16] S ReadField : Index = 13,Type=1
+[18:41:16] S Packet : ------> ++T : True
+[18:41:16] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[18:41:16] E Field : Not Defined : 13
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[18:41:16] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[18:41:16] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[18:41:18] I BaseClient : disconnected  Une connexion existante a dû être fermée par l’hôte distant

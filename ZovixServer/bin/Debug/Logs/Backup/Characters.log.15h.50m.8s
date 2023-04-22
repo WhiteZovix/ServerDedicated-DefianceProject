@@ -1,0 +1,801 @@
+[15:42:33] N InitLog : Logger initialized
+[15:42:33] I RpcServer : Starting... 6899
+[15:42:33] I Load : Registering RpcConnector : RpcConnectorpassword
+[15:42:33] I RpcConnector : Server = Shared.RpcServer
+[15:42:33] I RpcServer : Registering Rpc : AccountMgr
+[15:42:33] I RpcServer : Registering Rpc : CacheMgr
+[15:42:33] I RpcServer : Registering Rpc : CharacterMgr
+[15:42:33] S RpcServer : Server listening on : 6899
+[15:42:33] I DBManager : Registering table: Account
+[15:42:33] I DataConnection : New DB Connection
+[15:42:33] I DBManager : Registering table: Account_banned
+[15:42:33] I DBManager : Registering table: Character_StartItems
+[15:42:33] I DataConnection : New DB Connection
+[15:42:33] I DBManager : Registering table: Cache_Info
+[15:42:33] I DBManager : Registering table: ItemCache_Info
+[15:42:33] I DBManager : Registering table: Map_Info
+[15:42:33] I DBManager : Registering table: Model_Info
+[15:42:33] I DBManager : Registering table: RaceSexMask_Info
+[15:42:33] I DBManager : Registering table: Text_Info
+[15:42:33] I DBManager : Registering table: Character
+[15:42:33] I DBManager : Registering table: Character_Position
+[15:42:33] I DBManager : Registering table: Character_Item
+[15:42:33] I DBManager : Registering table: Creation_Name
+[15:42:33] I DBManager : Registering table: Creation_Position
+[15:42:33] I DBManager : Registering table: Realm
+[15:42:33] I DBManager : Registering table: Zone_Info
+[15:42:33] I DBManager : Registering table: Items_Template
+[15:42:33] I DBManager : Registering table: Character_StartItems
+[15:42:33] I DataConnection : New DB Connection
+[15:42:33] I DBManager : Registering table: Cache_Info
+[15:42:33] I DBManager : Registering table: ItemCache_Info
+[15:42:33] I DBManager : Registering table: Map_Info
+[15:42:33] I DBManager : Registering table: Model_Info
+[15:42:33] I DBManager : Registering table: RaceSexMask_Info
+[15:42:33] I DBManager : Registering table: Text_Info
+[15:42:33] I DBManager : Registering table: Character
+[15:42:33] I DBManager : Registering table: Character_Position
+[15:42:33] I DBManager : Registering table: Character_Item
+[15:42:33] I DBManager : Registering table: Creation_Name
+[15:42:33] I DBManager : Registering table: Creation_Position
+[15:42:33] I DBManager : Registering table: Realm
+[15:42:33] I DBManager : Registering table: Zone_Info
+[15:42:33] I DBManager : Registering table: Items_Template
+[15:42:33] S LoadRealms : Loaded 0 Realm(s)
+[15:42:33] S LoadCreation_Names : Loaded 0 Random Name(s)
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001B7
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001D7
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001DD
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001E8
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001D6
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001D5
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001C2
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001B3
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001EF
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001F0
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001B2
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001B1
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001C0
+[15:42:33] S RegisterDefinitions : Registering Handler : 0000019D
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001C5
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001B4
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001E5
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001C1
+[15:42:33] S RegisterDefinitions : Registering Handler : 0000019E
+[15:42:33] S RegisterDefinitions : Registering Handler : 000001AF
+[15:42:33] S RegisterDefinitions : Registering Handler : 000003EA
+[15:42:33] S RegisterDefinitions : Registering Handler : 0000040A
+[15:42:33] S RegisterDefinitions : Registering Handler : 00000019
+[15:42:33] S RegisterDefinitions : Registering Handler : 0000040B
+[15:42:33] S RegisterDefinitions : Registering Handler : 00001E17
+[15:42:33] S RegisterDefinitions : Registering Handler : 000000DE
+[15:42:33] S RegisterDefinitions : Registering Handler : 00000E10
+[15:42:33] S RegisterDefinitions : Registering Handler : 00000DBF
+[15:42:33] S RegisterDefinitions : Registering Handler : 00000002
+[15:42:33] S RegisterDefinitions : Registering Handler : 0000025B
+[15:42:33] S RegisterDefinitions : Registering Handler : 000003EF
+[15:42:33] S RegisterDefinitions : Registering Handler : 00000080
+[15:42:33] I TCPManager : Starting...
+[15:42:33] I TCPManager : Loading the Packet Handler
+[15:42:33] I TCPManager : Loading Crypt Handler
+[15:42:33] S TCPManager : Server listening to : 0.0.0.0:50000
+[15:42:33] I ConsoleMgr : Commands list : 
+[15:42:33] I ConsoleMgr : .help : <command>
+[15:42:33] I ConsoleMgr : .create : <Username,Password>
+[15:42:33] I ConsoleMgr : .realm : <id(1-41) type(1=Pvp,2=RP,3=PVP-RP) lang(1=En-3=Ger-5=Fr)>
+[15:42:33] I ConsoleMgr : .shutdown : <time in second>
+[15:44:05] I RpcServer : New client: WorldServer, ID=1
+[15:44:05] I ClientInfo : Loading of : Shared.AccountMgr
+[15:44:05] I ClientInfo : Loading of : Shared.CacheMgr
+[15:44:05] I ClientInfo : Loading of : Shared.CharacterMgr
+[15:44:13] E RpcServer : Client disconnected : 1
+[15:44:18] I RpcServer : New client: WorldServer, ID=2
+[15:44:18] I ClientInfo : Loading of : Shared.AccountMgr
+[15:44:18] I ClientInfo : Loading of : Shared.CacheMgr
+[15:44:18] I ClientInfo : Loading of : Shared.CharacterMgr
+[15:44:27] E RpcServer : Client disconnected : 2
+[15:44:37] I TCPManager : New Connection : 127.0.0.1:62177
+[15:44:37] I TCPManager : New Connection : 127.0.0.1:62178
+[15:44:37] S OnReceive : Received Bytes =764
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000045
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 10,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 10,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 14,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 5,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] E Field : Not Defined : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000020
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 4,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 13,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 14,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 13,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 6,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 6,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 6,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 5,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E Field : Not Defined : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 4
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 0000003B
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 14,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 0,Type=2
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 0,Type=6
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 10,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 13,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000063
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 13,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 5,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E Field : Not Defined : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000071
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 14,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 1,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 14,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 14,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 8,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 0,Type=5
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 0,Type=4
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 6,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E Field : Not Defined : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000029
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 4,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 8,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 14,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 13,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 6,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 14,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 13,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 12,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 14,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 15,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 13,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 13,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 13,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 5,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 12,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 12,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 0,Type=5
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 0,Type=4
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 6,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = False
+[15:44:37] S ReadField : Index = 4,Type=0
+[15:44:37] S Packet : ------> ++T : False
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 13,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 1,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 12,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 12,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 0,Type=5
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 0,Type=4
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 10,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 14,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 13,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 12,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 6,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 6,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 12,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 4
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 15
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 0000002F
+[15:44:37] E Field : Not Defined : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 00000065
+[15:44:37] I GetFieldType : Type = Unsigned7BitEncoded
+[15:44:37] S ReadField : Index = 7,Type=2
+[15:44:37] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 13,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 9,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 12,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 0,Type=5
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 0,Type=4
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 10,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 14,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 13,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 12,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 6,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 6,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 12,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 9
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Packet
+[15:44:37] S ReadField : Index = 0,Type=10
+[15:44:37] E PacketProcessor : Unhandled Opcode : 0000002D
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 9,Type=4
+[15:44:37] S Packet : ------> ++T : Raw4Bytes
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 12,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Dictionary
+[15:44:37] S ReadField : Index = 1,Type=12
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 0,Type=5
+[15:44:37] I GetFieldType : Type = Raw4Bytes
+[15:44:37] S ReadField : Index = 0,Type=4
+[15:44:37] S Packet : ------> ++T : Dictionary
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 10,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 14,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 7,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 13,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] I GetFieldType : Type = Raw8Bytes
+[15:44:37] S ReadField : Index = 12,Type=5
+[15:44:37] S Packet : ------> ++T : Raw8Bytes
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = True
+[15:44:37] S ReadField : Index = 6,Type=1
+[15:44:37] S Packet : ------> ++T : True
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 5,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 6,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = Signed7BitEncoded
+[15:44:37] S ReadField : Index = 12,Type=3
+[15:44:37] S Packet : ------> ++T : Signed7BitEncoded
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] I GetFieldType : Type = ByteArray
+[15:44:37] S ReadField : Index = 12,Type=6
+[15:44:37] S Packet : ------> ++T : ByteArray
+[15:44:37] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 5
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 9
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:44:37] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:44:37] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:48:28] I TCPManager : New Connection : 127.0.0.1:62243
+[15:48:28] S OnReceive : Received Bytes =263
+[15:48:28] I GetFieldType : Type = Packet
+[15:48:28] S ReadField : Index = 0,Type=10
+[15:48:28] E PacketProcessor : Unhandled Opcode : 00001000
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 0,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = True
+[15:48:28] S ReadField : Index = 0,Type=1
+[15:48:28] S Packet : ------> ++T : True
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 0,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 0,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = ByteArray
+[15:48:28] S ReadField : Index = 7,Type=6
+[15:48:28] S Packet : ------> ++T : ByteArray
+[15:48:28] I GetFieldType : Type = Raw8Bytes
+[15:48:28] S ReadField : Index = 6,Type=5
+[15:48:28] S Packet : ------> ++T : Raw8Bytes
+[15:48:28] I GetFieldType : Type = True
+[15:48:28] S ReadField : Index = 1075,Type=1
+[15:48:28] S Packet : ------> ++T : True
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 29229,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = Dictionary
+[15:48:28] S ReadField : Index = 1,Type=12
+[15:48:28] S Packet : ------> ++T : Dictionary
+[15:48:28] I GetFieldType : Type = Raw4Bytes
+[15:48:28] S ReadField : Index = 8,Type=4
+[15:48:28] S Packet : ------> ++T : Raw4Bytes
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = -973130776,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = Unsigned7BitEncoded
+[15:48:28] S ReadField : Index = 13,Type=2
+[15:48:28] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:48:28] I GetFieldType : Type = ByteArray
+[15:48:28] S ReadField : Index = 16268775,Type=6
+[15:48:28] S Packet : ------> ++T : ByteArray
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : -973130776
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1075
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 29229
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 16268775
+[15:48:28] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:48:28] I GetFieldType : Type = Packet
+[15:48:28] S ReadField : Index = 0,Type=10
+[15:48:28] E PacketProcessor : Unhandled Opcode : 0000003B
+[15:48:28] I GetFieldType : Type = Raw8Bytes
+[15:48:28] S ReadField : Index = 3,Type=5
+[15:48:28] S Packet : ------> ++T : Raw8Bytes
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 8,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = Raw4Bytes
+[15:48:28] S ReadField : Index = 8073554,Type=4
+[15:48:28] S Packet : ------> ++T : Raw4Bytes
+[15:48:28] I GetFieldType : Type = Raw8Bytes
+[15:48:28] S ReadField : Index = 15036805,Type=5
+[15:48:28] S Packet : ------> ++T : Raw8Bytes
+[15:48:28] I GetFieldType : Type = True
+[15:48:28] S ReadField : Index = 0,Type=1
+[15:48:28] S Packet : ------> ++T : True
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 14,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = ByteArray
+[15:48:28] S ReadField : Index = 1015,Type=6
+[15:48:28] S Packet : ------> ++T : ByteArray
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 14,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 0,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = Raw4Bytes
+[15:48:28] S ReadField : Index = 3,Type=4
+[15:48:28] S Packet : ------> ++T : Raw4Bytes
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = Unsigned7BitEncoded
+[15:48:28] S ReadField : Index = 1,Type=2
+[15:48:28] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:48:28] I GetFieldType : Type = True
+[15:48:28] S ReadField : Index = 13,Type=1
+[15:48:28] S Packet : ------> ++T : True
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 7,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 8,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 163,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] I GetFieldType : Type = False
+[15:48:28] S ReadField : Index = 932,Type=0
+[15:48:28] S Packet : ------> ++T : False
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 3
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 7
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 13
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 163
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 932
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1015
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8073554
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 15036805
+[15:48:28] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:48:28] I GetFieldType : Type = Packet
+[15:48:28] S ReadField : Index = 0,Type=10
+[15:48:28] E PacketProcessor : Unhandled Opcode : 00000071
+[15:48:28] I GetFieldType : Type = True
+[15:48:28] S ReadField : Index = 1064,Type=1
+[15:48:28] S Packet : ------> ++T : True
+[15:48:28] I GetFieldType : Type = Unsigned7BitEncoded
+[15:48:28] S ReadField : Index = 1924711128,Type=2
+[15:48:28] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1064
+[15:48:28] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1924711128
+[15:48:28] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:48:58] I TCPManager : New Connection : 127.0.0.1:62254
+[15:48:58] S OnReceive : Received Bytes =263
+[15:48:58] I GetFieldType : Type = Packet
+[15:48:58] S ReadField : Index = 0,Type=10
+[15:48:58] E PacketProcessor : Unhandled Opcode : 00001000
+[15:48:58] I GetFieldType : Type = False
+[15:48:58] S ReadField : Index = 0,Type=0
+[15:48:58] S Packet : ------> ++T : False
+[15:48:58] I GetFieldType : Type = True
+[15:48:58] S ReadField : Index = 0,Type=1
+[15:48:58] S Packet : ------> ++T : True
+[15:48:58] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:58] I GetFieldType : Type = False
+[15:48:58] S ReadField : Index = 0,Type=0
+[15:48:58] S Packet : ------> ++T : False
+[15:48:58] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:58] I GetFieldType : Type = False
+[15:48:58] S ReadField : Index = 0,Type=0
+[15:48:58] S Packet : ------> ++T : False
+[15:48:58] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:48:58] I GetFieldType : Type = Signed7BitEncoded
+[15:48:58] S ReadField : Index = 2,Type=3
+[15:48:58] S Packet : ------> ++T : Signed7BitEncoded
+[15:48:58] I GetFieldType : Type = True
+[15:48:58] S ReadField : Index = 876,Type=1
+[15:48:58] S Packet : ------> ++T : True
+[15:48:58] I GetFieldType : Type = Signed7BitEncoded
+[15:48:58] S ReadField : Index = 1,Type=3
+[15:48:58] S Packet : ------> ++T : Signed7BitEncoded
+[15:48:58] I GetFieldType : Type = True
+[15:48:58] S ReadField : Index = 8,Type=1
+[15:48:58] S Packet : ------> ++T : True
+[15:48:58] I GetFieldType : Type = Signed7BitEncoded
+[15:48:58] S ReadField : Index = 125304,Type=3
+[15:48:58] S Packet : ------> ++T : Signed7BitEncoded
+[15:48:58] I GetFieldType : Type = ByteArray
+[15:48:58] S ReadField : Index = 186328,Type=6
+[15:48:58] S Packet : ------> ++T : ByteArray
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 2
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 8
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 876
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 125304
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 186328
+[15:48:58] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:48:58] I GetFieldType : Type = Packet
+[15:48:58] S ReadField : Index = 0,Type=10
+[15:48:58] E PacketProcessor : Unhandled Opcode : 00003F96
+[15:48:58] I GetFieldType : Type = Raw8Bytes
+[15:48:58] S ReadField : Index = 80840,Type=5
+[15:48:58] S Packet : ------> ++T : Raw8Bytes
+[15:48:58] I GetFieldType : Type = False
+[15:48:58] S ReadField : Index = 10,Type=0
+[15:48:58] S Packet : ------> ++T : False
+[15:48:58] I GetFieldType : Type = Signed7BitEncoded
+[15:48:58] S ReadField : Index = 12,Type=3
+[15:48:58] S Packet : ------> ++T : Signed7BitEncoded
+[15:48:58] I GetFieldType : Type = ByteArray
+[15:48:58] S ReadField : Index = 1,Type=6
+[15:48:58] S Packet : ------> ++T : ByteArray
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 1
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 12
+[15:48:58] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 80840
+[15:48:58] E OnRead : Unknown ISerialized packet : ISerializablePacket
+[15:49:08] I TCPManager : New Connection : 127.0.0.1:62258
+[15:49:08] S OnReceive : Received Bytes =263
+[15:49:08] I GetFieldType : Type = Packet
+[15:49:08] S ReadField : Index = 0,Type=10
+[15:49:08] E PacketProcessor : Unhandled Opcode : 00001000
+[15:49:08] I GetFieldType : Type = False
+[15:49:08] S ReadField : Index = 0,Type=0
+[15:49:08] S Packet : ------> ++T : False
+[15:49:08] I GetFieldType : Type = True
+[15:49:08] S ReadField : Index = 0,Type=1
+[15:49:08] S Packet : ------> ++T : True
+[15:49:08] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:49:08] I GetFieldType : Type = False
+[15:49:08] S ReadField : Index = 0,Type=0
+[15:49:08] S Packet : ------> ++T : False
+[15:49:08] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:49:08] I GetFieldType : Type = False
+[15:49:08] S ReadField : Index = 0,Type=0
+[15:49:08] S Packet : ------> ++T : False
+[15:49:08] E ISerializablePacket : Duplicate Field Index : ISerializablePacket
+[15:49:08] I GetFieldType : Type = Signed7BitEncoded
+[15:49:08] S ReadField : Index = 6,Type=3
+[15:49:08] S Packet : ------> ++T : Signed7BitEncoded
+[15:49:08] I GetFieldType : Type = Raw8Bytes
+[15:49:08] S ReadField : Index = 10,Type=5
+[15:49:08] S Packet : ------> ++T : Raw8Bytes
+[15:49:08] I GetFieldType : Type = Unsigned7BitEncoded
+[15:49:08] S ReadField : Index = 14,Type=2
+[15:49:08] S Packet : ------> ++T : Unsigned7BitEncoded
+[15:49:08] I GetFieldType : Type = Entry
+[15:49:08] E PacketProcessor : Unhandled Field Type : Entry
+[15:49:08] E PacketProcessor : Unhandled Field : Type = 9
+[15:49:08] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 0
+[15:49:08] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 6
+[15:49:08] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 10
+[15:49:08] E ApplyToFieldInfo : ISerializablePacket, Invalid Index : 14
+[15:49:08] E OnRead : Unknown ISerialized packet : ISerializablePacket

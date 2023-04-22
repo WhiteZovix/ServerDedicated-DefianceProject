@@ -1,0 +1,38 @@
+[15:42:13] N InitLog : Logger initialized
+[15:42:13] I Connect : Registering connector : tcp://127.0.0.1:6899/RpcConnectorpassword
+[15:42:13] S RpcClient : Connected to : 127.0.0.1:6899
+[15:42:13] I RpcClient : Loading
+[15:42:13] S RegisterDefinitions : Registering Handler : 000003E9
+[15:42:13] S RegisterDefinitions : Registering Handler : 000003E8
+[15:42:13] S RegisterDefinitions : Registering Handler : 000010CE
+[15:42:13] S RegisterDefinitions : Registering Handler : 000010CC
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000E55
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000007
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000F04
+[15:42:13] S RegisterDefinitions : Registering Handler : 000011CE
+[15:42:13] S RegisterDefinitions : Registering Handler : 00001E99
+[15:42:13] S RegisterDefinitions : Registering Handler : 000003EC
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000DAF
+[15:42:13] S RegisterDefinitions : Registering Handler : 000010E9
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000271
+[15:42:13] S RegisterDefinitions : Registering Handler : 000003EA
+[15:42:13] S RegisterDefinitions : Registering Handler : 0000040A
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000019
+[15:42:13] S RegisterDefinitions : Registering Handler : 0000040B
+[15:42:13] S RegisterDefinitions : Registering Handler : 00001E17
+[15:42:13] S RegisterDefinitions : Registering Handler : 000000DE
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000E10
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000DBF
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000002
+[15:42:13] S RegisterDefinitions : Registering Handler : 0000025B
+[15:42:13] S RegisterDefinitions : Registering Handler : 000003EF
+[15:42:13] S RegisterDefinitions : Registering Handler : 00000080
+[15:42:13] I TCPManager : Starting...
+[15:42:13] I TCPManager : Loading the Packet Handler
+[15:42:13] I TCPManager : Loading Crypt Handler
+[15:42:13] E TCPManager : System.Net.Sockets.SocketException (0x80004005): Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   à Shared.NetWork.TCPManager.Start(Int32 port) dans C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\Deps\NetWork\TCPManager.cs:ligne 253
+[15:42:13] E WorldServer : Can not start server on port : 50000

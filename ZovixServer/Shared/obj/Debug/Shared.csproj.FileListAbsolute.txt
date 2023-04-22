@@ -1,0 +1,7 @@
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\bin\Debug\Shared.dll
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\bin\Debug\Shared.pdb
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\obj\Debug\Shared.csproj.CopyComplete
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\obj\Debug\Shared.dll
+C:\Users\Alexis\Downloads\ChameleonProject-master\ChameleonProject-master\Shared\obj\Debug\Shared.pdb
